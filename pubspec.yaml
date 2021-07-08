@@ -16,6 +16,7 @@ dependencies:
   flutter_hooks: ^0.18.0
   freezed_annotation: ^0.14.2
   hooks_riverpod: ^1.0.0-dev.5
+  path_provider: ^2.0.2
   picovoice: ^1.1.8
   porcupine: ^1.9.13
   rhino: ^1.6.10
@@ -29,3 +30,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/picovoice/android/
+    - assets/picovoice/ios/
